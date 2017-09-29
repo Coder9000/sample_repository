@@ -1,0 +1,52 @@
+# Part A
+
+# Task 1
+shopping_list = ['TV', 'lamp', 'desk', 'closet', 'computer', 'phone']
+
+# Task 2
+count = len(shopping_list)
+print(count)
+
+#Task 3
+print(shopping_list[2])
+
+# Task 4
+# Option 1
+print(shopping_list[count - 1])
+
+# Option 2
+print(shopping_list[-1])
+
+# Task 5
+for s in shopping_list:
+    print(s)
+
+# Part B
+
+# Task 1
+shopping_list.append('bike')
+for s in shopping_list:
+    print(s)
+
+# Task 2
+shopping_list.insert(3, 'hammer')
+for s in shopping_list:
+    print(s)
+
+# Task 3
+additional_list = ['shirt', 'coat', 'hat']
+shopping_list.extend(additional_list)
+
+for s in shopping_list:
+    print(s)
+
+# Task 4
+shopping_list.sort()
+
+for s in shopping_list:
+    print(s)
+
+# Task 5
+shopping_list_2 = shopping_list
+shopping_list_2.append('car')
+print(shopping_list)
