@@ -1,4 +1,4 @@
-# Part A CHANGED
+# Part A CHANGED ANOTHER CHANGE
 
 # Task 1
 shopping_list = ['TV', 'lamp', 'desk', 'closet', 'computer', 'phone']
